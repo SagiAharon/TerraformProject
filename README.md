@@ -2,9 +2,17 @@
 
 ![alt text](https://bootcamp.rhinops.io/images/terraform-intro.gif)
 
-Terraform & Ansible
+<details><summary>Making 2 workspaces with 1 script</summary>
+<p>
+   
+   * I created 2 workspaces production & Staging
+   * I created 2 new files: prod.tfvars & Stag.tfvars with them I define which   settings I want for any of my workspaces
+   * When I want to use them I will first have to see where I am, i will use the command <terraform workspace list>
+   * Now, if I want to get to the Terraform what settings I want, I will use the command: <terraform apply -var-file prod.tfvars> for my production workspace
 
-## Terraform ##
+
+</p>
+</details>
 
 ### Making 2 workspaces with 1 script... ###
 
