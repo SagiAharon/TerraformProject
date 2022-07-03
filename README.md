@@ -1,4 +1,6 @@
-# Week -06 #
+# Week -07 #
+
+https://bootcamp.rhinops.io/images/terraform-intro.gif
 
 Terraform & Ansible
 
@@ -25,29 +27,6 @@ Terraform & Ansible
 * I set up a Postgresql server in both environments, production & Staging
 * I added NSG to give my VMs access to the Postgresql server
 * I set require_secure_transport = false
-
-## Ansible ##
-
-### Install Ansible & Checking ###
-
-* Install ansible with command: sudo apt install ansible
-* Change to ansible dir with th command: cd /etc/ansible
-* Add Ips to host file and ping to the servers with: ansible WebServers -m ping
-
-### Set-Up the app on servers ###
-
-* install nodejs 14 with shell command
-* install npm latest with shell command
-* I use playbook for Clone my repo
-* I create the .env on the accessVM where i use ansible to control the VMs & copy them to remote servers
-* After copy the .env file i changes the "HOST=" to the VM ips
-* I created "pm2start.sh" script
-* copy "pm2start.sh" script & execute on remote servers
-
-### connect to the PostgreSQL flexible server ###
-
-* I install on my ansible workstation postgresql-client 
-* I run: npm run initdb to init my db 
 
 
 
