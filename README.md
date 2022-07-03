@@ -1,6 +1,6 @@
 # Week -07 #
 
-https://bootcamp.rhinops.io/images/terraform-intro.gif
+![alt text](https://bootcamp.rhinops.io/images/terraform-intro.gif)
 
 Terraform & Ansible
 
