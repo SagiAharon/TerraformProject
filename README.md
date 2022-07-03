@@ -1,6 +1,6 @@
 # Week -07 #
 
-![alt text](https://congdonglinux.com/how-to-create-a-terraform-module/)
+![alt text](https://bootcamp.rhinops.io/images/terraform-intro.gif)
 
 Terraform & Ansible
 
