@@ -38,4 +38,4 @@
 </details>
 
 
-![alt text](https://forum.huawei.com/enterprise/en/data/attachment/forum/202204/21/120858nak5g1epkzwq5gcs.png)
+![alt text](https://d7umqicpi7263.cloudfront.net/img/product/207dabbc-00a2-4b99-a49e-220e0b49239f/40dc4893-92c4-4f4f-9304-3f0c60e6b400.png)
