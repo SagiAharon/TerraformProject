@@ -36,5 +36,3 @@
 </p>
 </details>
 
-
-![alt text](https://d7umqicpi7263.cloudfront.net/img/product/207dabbc-00a2-4b99-a49e-220e0b49239f/40dc4893-92c4-4f4f-9304-3f0c60e6b400.png)
