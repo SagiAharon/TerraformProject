@@ -1,10 +1,31 @@
 
-![alt text](https://bootcamp.rhinops.io/images/terraform-intro.gif)
+![alt text](https://uploads-ssl.webflow.com/5c9200c49b1194323aff7304/61a4b85516bbd04f7b7fa891_Learn_Terra-570x330.png)
 
+***Staging & Production environments***
+ <details><summary>For this Terraform project I created two development environments</summary>
+<p>
    
-   * I created 2 workspaces production & Staging
-   * I created 2 new files: prod.tfvars & Stag.tfvars with them I define which   settings I want for any of my workspaces
-   * When I want to use them I will first have to see where I am, i will use the command <terraform workspace list>
+   To creating __staging__ workspace
+   ```
+   terraform workspace new Staging
+   ```
+   To creating __production__ workspace
+   ```
+   terraform workspace new Production
+   ```
+   After the creation of the two environments we need to use command to see on what workspace we currently are. the command is:
+   
+   ```
+   terraform workspace list
+   ```
+
+</p>
+</details>
+   
+   
+   * I added a variable document that defines my need in each environment calls Prod.tfvars & Stag.tfvars
+
+
    * Now, if I want to tell Terraform what settings I want, I will use the command: <terraform apply -var-file prod.tfvars> for my production workspaces
 
    
