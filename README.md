@@ -39,7 +39,7 @@
  
  **--- The product that is spread over the environments is an application that measures weight and calculates bmi. ---**
  
- ![alt text]()
+ ![azure terraform project drawio](https://user-images.githubusercontent.com/47359629/216842242-73133687-f4ce-4e0c-a708-a26d66513e96.png)
 
 What we see?... 
 
